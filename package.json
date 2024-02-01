@@ -2,7 +2,7 @@
   "publisher": "Debbl",
   "name": "vscode-toggle-bool",
   "displayName": "Toggle Bool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@8.15.1",
   "description": "quickly toggle boolean value at the cursor position",
