@@ -6,7 +6,7 @@ const MAP: Record<string, string> = {
 };
 
 export function activate(context: vscode.ExtensionContext) {
-  const disposable = vscode.commands.registerCommand("toggleBoolean", () => {
+  const disposable = vscode.commands.registerCommand("toggleBool", () => {
     const editor = vscode.window.activeTextEditor;
     if (!editor) return;
 

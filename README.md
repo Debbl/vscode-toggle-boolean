@@ -1,1 +1,1 @@
-# VS Code Toggle Boolean
+# VS Code Toggle Bool

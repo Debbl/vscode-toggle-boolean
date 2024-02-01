@@ -1,20 +1,20 @@
 {
   "publisher": "Debbl",
-  "name": "vscode-toggle-boolean",
-  "displayName": "vscode-toggle-boolean",
+  "name": "vscode-toggle-bool",
+  "displayName": "Toggle Bool",
   "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@8.10.5",
   "description": "",
   "author": "Brendan Dash <me@aiwan.run>",
   "license": "MIT",
-  "homepage": "https://github.com/Debbl/vscode-toggle-boolean#readme",
+  "homepage": "https://github.com/Debbl/vscode-toggle-bool#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Debbl/vscode-toggle-boolean"
+    "url": "https://github.com/Debbl/vscode-toggle-bool"
   },
   "bugs": {
-    "url": "https://github.com/Debbl/vscode-toggle-boolean/issues"
+    "url": "https://github.com/Debbl/vscode-toggle-bool/issues"
   },
   "categories": [
     "Other"
@@ -33,8 +33,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "toggleBoolean",
-        "title": "VSCode Toggle Boolean: Toggle Boolean"
+        "command": "toggleBool",
+        "title": "Toggle Bool: Toggle Bool"
       }
     ]
   },
