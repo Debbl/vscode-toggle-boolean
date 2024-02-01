@@ -5,7 +5,7 @@
   "version": "0.0.3",
   "private": true,
   "packageManager": "pnpm@8.15.1",
-  "description": "",
+  "description": "quickly toggle boolean value at the cursor position",
   "author": "Brendan Dash <me@aiwan.run>",
   "license": "MIT",
   "homepage": "https://github.com/Debbl/vscode-toggle-bool#readme",
