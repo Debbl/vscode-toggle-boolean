@@ -1,0 +1,63 @@
+{
+  "publisher": "Debbl",
+  "name": "vscode-toggle-boolean",
+  "displayName": "vscode-toggle-boolean",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.10.5",
+  "description": "",
+  "author": "Brendan Dash <me@aiwan.run>",
+  "license": "MIT",
+  "homepage": "https://github.com/Debbl/vscode-toggle-boolean#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Debbl/vscode-toggle-boolean"
+  },
+  "bugs": {
+    "url": "https://github.com/Debbl/vscode-toggle-boolean/issues"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./dist/index.js",
+  "icon": "res/icon.png",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "toggleBoolean",
+        "title": "VSCode Toggle Boolean: Toggle Boolean"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "nr build --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "vscode:prepublish": "nr build",
+    "publish": "vsce publish --no-dependencies",
+    "pack": "vsce package --no-dependencies",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp && nr publish"
+  },
+  "devDependencies": {
+    "@antfu/ni": "^0.21.12",
+    "@debbl/eslint-config": "^3.0.5",
+    "@types/babel__traverse": "^7.20.5",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.23.0",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "vitest": "^1.2.2"
+  }
+}
