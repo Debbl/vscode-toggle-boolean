@@ -7,7 +7,7 @@
 ```json
 "commands": [
     {
-    "command": "toggleBool",
+    "command": "toggleBool.toggle",
     "title": "Toggle Bool: Toggle Bool"
     }
 ]
